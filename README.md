@@ -2,6 +2,7 @@
 
 
 This is the README file for run_analysis.R
+
 Merely running this script will give you an output of tidy.txt
 
 The run_analysis.R does the following:
