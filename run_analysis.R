@@ -78,5 +78,6 @@ new_and_tidey <- dcast(nnt, subject + movlabels ~ variable, mean)
 
 #step 6
 
+#creating the output file with the required data "tidy.txt" in the directory folder
 write.table(new_and_tidey, "tidy.txt", row.names=FALSE)
 # ______________________________________________________
